@@ -25,7 +25,7 @@ SECRET_KEY = 'l7m%ue3es272l&ruyv_h&7o$9jke8_=pn9j133(@6-^n1l$i7^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'dtutorial-de.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'dtutorial-de.herokuapp.com']
 
 
 # Application definition
@@ -118,7 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/polls/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
